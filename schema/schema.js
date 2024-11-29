@@ -4,8 +4,6 @@ const axios=require("axios")
 //EXTERNAL SERVER TO RETURN DATA
 // https://github.com/typicode/json-server/tree/v0
 
-
-
 const {GraphQLObjectType,GraphQLString,GraphQLInt,
     GraphQLSchema //takes in a root query and return a graph ql schema instance
     ,GraphQLList,
@@ -19,6 +17,7 @@ const {GraphQLObjectType,GraphQLString,GraphQLInt,
 //     {id:'23',firstName:'Bill',lastName:'Gates',age:"40"},
 //     {id:'53',firstName:'Samantha',lastName:'John',age:"46"}
 // ]
+
 const CompantType=new GraphQLObjectType({
     name:'Company',
     fields: () => ({ //we are adding arrow function to overcome cross dependency of userType and companyType, which allows us to take advantage of closures
