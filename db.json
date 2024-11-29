@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "53",
+      "firstName": "shwetha",
+      "lastName": "Anbarasan",
+      "age": 27,
+      "companyId": "2"
+    },
+    {
+      "id": "12",
+      "firstName": "Ruth",
+      "lastName": "Krish",
+      "age": 45,
+      "companyId": "2"
+    },
+    {
+      "firstName": "shwetha",
+      "age": 27,
+      "id": "hUsDHuo"
+    },
+    {
+      "firstName": "shwetha",
+      "age": 27,
+      "id": "X8Qfzof"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "phone"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "application"
+    }
+  ]
+}
